@@ -83,18 +83,19 @@ nav ul li a:hover{
     left: 15%;
 }
 
-.header-block .text h2{
+.header-block .text h1{
     color: var(--Branco);
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     text-align: right;
-    transform: translateX(-20px);
+    transform: translateX(-100px);
     transition: transform 0.5s;
 }
 .header-block .text p{
-    max-width: 280px;
+    font-size: 25px;
+    max-width: 300px;
     color: white;
-    text-align: right;
-    transform: translateX(-20px);
+    text-align: left;
+    transform: translateX(-100px);
     transition: transform 0.4s;
 }
 /* Produtos do Catalogo */
@@ -243,7 +244,7 @@ section .card-item{
     max-width: 90%;
     font-size: 1em;
     letter-spacing: 2px;
-    text-align: right;
+    text-align: left;
     color: rgba(0,0,0,0.4);
 }
 
@@ -258,6 +259,7 @@ section .card-item{
     padding: 50px 0px;    
 }
 .title-wrapper-features{
+    color: var(--Branco);
     padding: 20px 0px;
 }
 .frature-card-block{
@@ -284,6 +286,7 @@ section .card-item{
     border-radius: 4px;
 }
 .feature-text-content{
+    color: var(--Branco);
     max-width: 60%;
     margin: 5px;   
 }
