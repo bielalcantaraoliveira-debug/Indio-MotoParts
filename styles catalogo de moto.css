@@ -118,7 +118,6 @@ section.filter-card{
 .search-input{
   width: 700px;
   height: 50px;
-  border:;
   border-radius: 4px 0px 0px 4px;
   text-indent: 10px;
 }
@@ -347,22 +346,26 @@ footer .last{
         display: none;
     }
     .header-block img{
-        width: 70%;
+        width: 40%;
         position:absolute;
-        right: 16%;
-        top: 30%;
+        right: 10%;
+        top: 65%;
     }
     .header-block .text{
-        position: absolute;
-        bottom: 10%;
-        left: 15%;
+        position: relative;
+        bottom: -10%;
+        left: 28%;
+    }
+    section.catalogo{
+        padding: 10px;
+
     }
     section .filter-card{
-        width: 390px;
+        width: 10px;
         padding: 0px 10px;
     }
     .search-input{
-        max-width: 700px;
+        max-width: 300px;
         min-width: 240px;
     }
     .search-button{
@@ -375,6 +378,7 @@ footer .last{
     .title-wrapper-sobre{
         margin-bottom: 20px;
     }
+    
     .sobre-content{
         flex-direction: column;
         height: 100%;
